@@ -1,0 +1,8 @@
+clr1=input("Enter the colors:")
+clr_list1=clr1.split(",")
+print(clr_list1)
+clr2=input("Enter the next colors:")
+clr_list2=clr2.split(",")
+print(clr_list2)
+a=(set(clr_list1).difference(clr_list2))
+print("Colours that not in list2:",a)
